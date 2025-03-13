@@ -13,7 +13,7 @@
   "paths": {
     "/": {
       "get": {
-        "description": "",
+        "description": "Dummy endpoint for testing purposes.",
         "responses": {
           "200": {
             "description": "OK"
@@ -23,7 +23,7 @@
     },
     "/contacts/": {
       "get": {
-        "description": "",
+        "description": "Get all the Contacts",
         "produces": [
           "application/json"
         ],
@@ -34,7 +34,7 @@
         }
       },
       "post": {
-        "description": "",
+        "description": "Create a new Contact",
         "parameters": [
           {
             "name": "body",
@@ -73,7 +73,7 @@
     },
     "/contacts/{id}": {
       "get": {
-        "description": "",
+        "description": "Get a Contact by ID",
         "produces": [
           "application/json"
         ],
@@ -92,7 +92,7 @@
         }
       },
       "put": {
-        "description": "",
+        "description": "Update a Contact by ID",
         "parameters": [
           {
             "name": "id",
@@ -135,7 +135,7 @@
         }
       },
       "delete": {
-        "description": "",
+        "description": "Permanently delete a Contact by ID",
         "parameters": [
           {
             "name": "id",
